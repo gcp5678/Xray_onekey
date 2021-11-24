@@ -366,7 +366,7 @@ function ssl_install() {
   #  fi
   #  judge "安装 SSL 证书生成脚本依赖"
 
-  curl -L get.acme.sh | bash
+  curl -L get.acme.sh | sh -s email=sxdagdf@gmail.com | bash
   judge "安装 SSL 证书生成脚本"
 }
 
